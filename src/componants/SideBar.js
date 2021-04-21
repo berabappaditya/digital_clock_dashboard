@@ -15,6 +15,7 @@ export function SideBar({
       <button
         type="button"
         className="btn btn-primary m-5"
+        id="clkbtn"
         onClick={() => printTime()}
       >
         click here
