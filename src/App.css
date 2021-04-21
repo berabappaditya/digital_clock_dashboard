@@ -1,0 +1,91 @@
+
+.unboot{
+margin: 0;
+padding: 0;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 92.26%;
+  height:100px;
+  background-color: rgb(11, 14, 32);
+  color: white;
+  text-align: center;
+}
+#header{
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height:100px;
+    margin: 0ex;
+    padding: 0ex;
+     background-color: rgb(138, 212, 162);
+
+}
+#headerText{
+  position: Absolute;
+  top: 20px;
+  margin-right: 15px;
+  right: 15px;
+}
+.logo{
+ background-image: url("./clock.png");
+   background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #5EF177;
+ height:100%;
+ padding: 0px;
+ margin: 0px
+}
+.logocon{
+  width:7.75%;
+}
+.SideBar{
+  background-color: rgb(182, 223, 195);
+}
+.content{
+  height: 700px;
+  width: 100%;
+  overflow: scroll;
+  white-space: nowrap;
+  padding:5px 0px 0px 10px;
+}
+@media (max-width: 500px){
+  .footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(11, 14, 32);
+    color: white;
+    text-align: center;
+
+  }
+  .logo{
+    display: none;
+  }
+  #headerText {
+    position: Absolute;
+    top: 20px;
+    margin-right: 15px;
+    right: 10%;
+  }
+
+}
+/*
+@media (orientation: portrait),(min-width: 500px){
+    .footer {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100px;
+      background-color: rgb(11, 14, 32);
+      color: white;
+      text-align: center;
+    }   
+}*/
